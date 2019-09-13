@@ -31,3 +31,10 @@ def test_string_get_first_two_charcters():
     characters = string_get_first_two_characters('characters')
 
     assert 'ch' == characters
+
+
+def test_string_get_last_two_characters():
+
+    characters = string_get_last_two_characters('characters')
+
+    assert 'rs' == characters

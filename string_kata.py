@@ -21,3 +21,7 @@ def all_lower_case(string):
 def string_get_first_two_characters(string):
     return string[:2]
 
+
+def string_get_last_two_characters(string):
+    return string[-2:]
+
