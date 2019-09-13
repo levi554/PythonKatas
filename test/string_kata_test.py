@@ -25,3 +25,9 @@ def test_string_is_all_lowercase():
 
     assert lowercase == 'jonathan'
 
+
+def test_string_get_first_two_charcters():
+
+    characters = string_get_first_two_characters('characters')
+
+    assert 'ch' == characters
