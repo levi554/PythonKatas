@@ -1,4 +1,4 @@
-from string_kata import *
+from ..string_kata import *
 
 
 def test_test1_returns_string():
