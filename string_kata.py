@@ -1,12 +1,10 @@
 
 
 def string_is_of_type_string(string):
-
     return str(string)
 
 
 def reversed_string(string):
-
     return string[::-1]
 
 
@@ -25,3 +23,6 @@ def string_get_first_two_characters(string):
 def string_get_last_two_characters(string):
     return string[-2:]
 
+
+def string_get_ever_other_letter_in_string(string):
+    return string[::2]
