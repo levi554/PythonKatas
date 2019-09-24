@@ -4,10 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pytest = "~=5.0.1"
 
 [dev-packages]
 "flake8" = "*"
-pytest = "5.0.1"
 
 [requires]
 python_version = "3.7"
