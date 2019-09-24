@@ -45,3 +45,5 @@ def test_string_get_ever_other_letter_in_string():
     characters = string_get_ever_other_letter_in_string('character')
 
     assert 'caatr' == characters
+
+
